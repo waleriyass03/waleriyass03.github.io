@@ -1,0 +1,43 @@
+body {
+    font-family: "Pacifico";
+    background-color:#6caba8;
+}  
+p{
+    color: #b5e6ff;/*color*/
+    font-size: 20px;
+    font-family: "Pacifico", cursive;
+    font-weight: bold;/*font-weight - толщина шрифта, bold - жирный шрифт*/
+    font-style: normal;
+    padding:20px ;/*padding - внутренний отступ контейнера*/
+    margin: 10px 0px ;/*30px 0px - отступы сверху-снизу и слева-справа */
+    /*margin: 30px 10px 20px 40px - сверху-справа-снизу-слева*/
+}
+a{
+    color: rgba(0, 0, 0, 0.468);
+    text-decoration:none;
+    text-decoration-color: rgb(77, 77, 161);
+    display: block;
+    margin: 10px 0px;
+    border-bottom: 1px solid transparent;
+}
+h1{
+    color: rgb(130, 87, 150);
+    font-size: 40px;
+    padding:20px ;/*padding - внутренний отступ контейнера*/
+    text-align: center;
+    transition: 0.4 ease-out;/*transition - анимация, 0.4s- длительность анимации в секундах, ease-out - анимация перехода*/
+}
+a:haver{
+    /*:hover - псевдо-класс, для наведения мышкой*/
+    border-bottom-color: black;/*цвет нижнего подчёркивания*/}
+div{
+    width: 70%; /*width - ширина относительно родителя (тега, к которому принадлежит div)*/
+    margin: auto; /*margin - внешний отступ контейнера*/
+    background-color: rgb(39, 82, 129);/*background-color - цвет фона для объекта*/
+    box-shadow:0px 0px 10px 1px rgba(0, 0, 0, 0.7)/* box-shadow - тень на объекте, 0-смещение по ширине, 0 - смещение по высоте, 10px - радиус размытия, 1px - радиус распространения, rgba - обычный цвет, 0.7-прозрачность от 0 до 1 */
+}
+img{
+    max-width: 100%;/*max-midth - устанавливает максимально допустимую ширину*/
+    height: auto;/*height - высота объекта, auto - расчёт автоматический*/
+    display: block;/*display - отображение элемента, block - отделяет элементы друг друга переносом строки */
+}

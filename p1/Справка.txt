@@ -1,0 +1,19 @@
+Текст:
+color: rgb(0, 0, 0);/*color*/
+font-family: "Pacifico", cursive;
+font-size: 20px;
+font-weight: bold;/*font-weight - толщина шрифта, bold - жирный шрифт*/
+text-decoration:none;/*text-decoration - украшение текста: подчеркивание-underline, перечёркивание-line-through,верхнее подчёркивание-overline*/
+text-align: center;/*text-align - выравнивание текста по ширине*/
+display: block;/*display - отображение элемента, block - отделяет элементы друг друга переносом строки */
+text-decoration-color; /*text-decoration-color - цвет подчёркивания*/
+
+Остальное:
+width: 70%; /*width - ширина относительно родителя (тега, к которому принадлежит div)объект*/
+height: auto;/*height - высота объекта, auto - расчёт автоматический*/
+max-width: 100%;/*max-weight - устанавливает максимально допустимую ширину*/
+max-height: 100%;/*max-height - устанавливает максимально допустимую высоту*/
+background-color: rgb(108, 143, 181);/*background-color - цвет фона для объекта*/
+margin: auto; /*margin - внешний отступ контейнера*/
+padding:20px ;/*padding - внутренний отступ контейнера*/
+ box-shadow:0px 0px 10px 1px rgba(0, 0, 0, 0.7)/* box-shadow - тень на объекте, 0-смещение по ширине, 0 - смещение по высоте, 10px - радиус размытия, 1px - радиус распространения, rgba - обычный цвет, 0.7-прозрачность от 0 до 1 */
